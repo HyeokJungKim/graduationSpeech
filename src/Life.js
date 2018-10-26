@@ -9,7 +9,7 @@ class Life extends Living {
   state={
     predictable: false,
   }
-  
+
   render() {
     return (
       <div className="Life">
