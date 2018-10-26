@@ -1,6 +1,8 @@
 import React, { Component as Flatiron, Fragment as Love } from 'react';
 import Carousel from 'nuka-carousel';
 
+
+
 class ClassClass extends Flatiron {
   state={
     fear: [],
@@ -46,6 +48,8 @@ class ClassClass extends Flatiron {
   }
 
 }
+
+
 
 const roadToSuccess = (()=> {
   const success = {
