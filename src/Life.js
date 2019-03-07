@@ -2,7 +2,7 @@ import React, { Component as Living, Fragment as EachOther } from 'react';
 
 
 import LifeBeforeFlatiron from './Components/LifeBeforeFlatiron'
-import SingleSourceOfTalent from './Components/ClassClass'
+import JeroldsMod from './Components/HashGang'
 import LifeAfterFlatiron from './Components/LifeAfterFlatiron'
 import './App.css';
 
@@ -18,7 +18,7 @@ class Life extends Living {
       <div className="Life">
         <LifeBeforeFlatiron/>
         <EachOther>
-          <SingleSourceOfTalent graduating={true}/>
+          <JeroldsMod graduating={true}/>
           <LifeAfterFlatiron/>
         </EachOther>
       </div>

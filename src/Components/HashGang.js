@@ -1,14 +1,11 @@
 import React, { Component as Flatiron, Fragment as Love } from 'react';
 import Carousel from 'nuka-carousel';
 
-
-
-class ClassClass extends Flatiron {
+class HashGang extends Flatiron {
   state={
     fear: [],
     attributes: {
-      graduating: false,
-      beMissedAndLoved: true,
+      graduating: false
     }
   }
 
@@ -35,13 +32,13 @@ class ClassClass extends Flatiron {
   render() {
     return(
       <Love>
-        <h1>Congratulations class Class!</h1>
+        <h1>Congratulations Hash Gang!</h1>
           <Carousel className="carousel" autoPlay={true} wrapAround={true} width="50%">
+            <img src={require("../Images/1.jpg")} />
             <img src={require("../Images/2.jpg")} />
             <img src={require("../Images/3.JPG")} />
-            <img src={require("../Images/4.jpg")} />
-            <img src={require("../Images/1.jpg")} />
-            <img src={require("../Images/5.JPG")} />
+            <img src={require("../Images/4.JPG")} />
+            <img src={require("../Images/5.jpg")} />
         </Carousel>
       </Love>
     );
@@ -61,4 +58,4 @@ const roadToSuccess = (()=> {
   return success
 })();
 
-export default ClassClass;
+export default HashGang;
