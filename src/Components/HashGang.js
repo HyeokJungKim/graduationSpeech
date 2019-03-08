@@ -10,7 +10,7 @@ class HashGang extends Flatiron {
   }
 
   componentDidMount() {
-    const arrayOfFears = ["Uncertainty", "GitHub", "Code Challenges", "Imposter's Syndrome"]
+    const arrayOfFears = ["Uncertainty", "GitHub", "Code Challenges", "Imposter Syndrome"]
     this.setState({fear: arrayOfFears})
   }
 
